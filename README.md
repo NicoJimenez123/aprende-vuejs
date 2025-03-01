@@ -1,57 +1,29 @@
 # aprende-vuejs
 
-This template should help get you started developing with Vue 3 in Vite.
+### Descripcion
 
-## Recommended IDE Setup
+Este proyecto tiene como objetivo enseñar cómo usar VueJS mediante ejemplos prácticos.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Guía para iniciar un proyecto
 
-## Customize configuration
+Lo más recomendable es seguir las instrucciones en la [Documentación Oficial](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Ejecutar proyecto en local (linux)
 
-## Project Setup
+1. Clonar el repositorio y moverse al directorio
 
 ```sh
-npm install
+git clone https://github.com/NicoJimenez123/aprende-vuejs ;cd aprende-vuejs
 ```
 
-### Compile and Hot-Reload for Development
+2. Instalar las dependencias y ejecutar con node
 
 ```sh
-npm run dev
+npm install ; npm run dev
 ```
 
-### Compile and Minify for Production
+3. Una vez en ejecución entrar con el navegador a la siguiente [URL](http://localhost:5174/):
 
-```sh
-npm run build
 ```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+http://localhost:5174/
 ```
