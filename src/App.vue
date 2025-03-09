@@ -7,8 +7,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     <nav>
       <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/fundamentos/programacion/variables">Variables</RouterLink>
+      <RouterLink to="/about">Acerca de</RouterLink>
     </nav>
   </header>
   <RouterView />
@@ -18,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  padding-bottom: 2rem;
 }
 
 nav {
