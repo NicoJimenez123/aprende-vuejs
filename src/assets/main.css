@@ -34,3 +34,12 @@ a,
     padding: 0 2rem;
   }
 }
+
+pre {
+  white-space: pre-wrap; /* Permite que el texto se ajuste */
+  word-wrap: break-word; /* Rompe las palabras largas si es necesario */
+  overflow-wrap: break-word; /* Similar a word-wrap, pero más moderno */
+  background-color: #252424;
+  padding: 10px;
+  border-radius: 5px;
+}
